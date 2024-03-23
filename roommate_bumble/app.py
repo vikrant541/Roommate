@@ -4,7 +4,7 @@ import numpy as np
 import warnings
 from sklearn.metrics.pairwise import euclidean_distances
 from sklearn.preprocessing import StandardScaler
-from .spatial.distance import hamming
+from spatial.distance import hamming
 
 warnings.filterwarnings('ignore')
 
